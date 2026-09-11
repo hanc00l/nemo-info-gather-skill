@@ -1,0 +1,14 @@
+# info-gather 在线接口密钥配置模板。
+# 部署：复制为 {tools_dir}/info-gather/config.yaml 并填入实际 key。
+# 未配置的平台：脚本返回"不可用"，管线自动降级跳过，不阻断任务。
+
+fofa:
+  key: ""
+hunter:
+  key: ""
+quake:
+  key: ""
+icp:
+  key: ""
+beianx:
+  key: ""

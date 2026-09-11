@@ -1,0 +1,22 @@
+# 运行时输出与临时目录
+share/
+tmp/
+
+# 密钥配置（不入库，参照 config.example.yaml）
+config.yaml
+
+# 二进制工具（架构相关，运维安装）
+bin/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# Vendored 依赖（平台二进制，worker-setup.sh 安装）
+script/vendor/
+
+# 大文件数据（运维安装）
+data/ip2region.xdb
+
+# 媒体产物
+*/media/
