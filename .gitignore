@@ -15,8 +15,7 @@ __pycache__/
 # Vendored 依赖（平台二进制，worker-setup.sh 安装）
 script/vendor/
 
-# 大文件数据（运维安装）
-data/ip2region.xdb
+# ip2region.xdb 已入库（11MB，归属地离线库）
 
 # 媒体产物
 */media/
