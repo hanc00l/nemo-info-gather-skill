@@ -1,12 +1,15 @@
 # 运行时输出与临时目录
-share/
-tmp/
+share/*
+!share/.gitkeeper
+tmp/*
+!tmp/.gitkeeper
 
 # 密钥配置（不入库，参照 config.example.yaml）
 config.yaml
 
 # 二进制工具（架构相关，运维安装）
-bin/
+bin/*
+!bin/.gitkeeper
 
 # Python 缓存
 __pycache__/
